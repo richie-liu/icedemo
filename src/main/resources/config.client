@@ -1,0 +1,5 @@
+Curve.proxy=Curve:tcp -p 10000
+
+Ice.Default.Host=localhost
+
+Ice.Warn.Connections=1
