@@ -24,9 +24,9 @@ public abstract class _CurveDisp extends Ice.ObjectImpl implements Curve
 {
     protected void
     ice_copyStateFrom(Ice.Object __obj)
-        throws CloneNotSupportedException
+        throws java.lang.CloneNotSupportedException
     {
-        throw new CloneNotSupportedException();
+        throw new java.lang.CloneNotSupportedException();
     }
 
     public static final String[] __ids =

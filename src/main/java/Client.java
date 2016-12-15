@@ -8,6 +8,7 @@ import com.sun.tools.internal.xjc.model.CBuiltinLeafInfo;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
+import java.util.Arrays;
 
 public class Client extends Ice.Application {
     private static void menu() {
@@ -22,7 +23,8 @@ public class Client extends Ice.Application {
     public int run(String[] strings) {
 
 
-        CurvePrx twoway = CurvePrxHelper.checkedCast(communicator().propertyToProxy("Curve.Proxy").ice_twoway().ice_secure(false));
+        CurvePrx twoway = CurvePrxHelper.checkedCast(
+                communicator().propertyToProxy("Curve.Proxy").ice_twoway().ice_secure(false));
         menu();
         BufferedReader in = new BufferedReader(new InputStreamReader(System.in));
         String line=null;
@@ -35,7 +37,7 @@ public class Client extends Ice.Application {
                     twoway.sayCurve(0);
                 }else if(line.equals("1")){
                     String[] pilars = twoway.getPillars();
-                    System.out.println(pilars);
+                    System.out.println(Arrays.toString( pilars));
                 }else if(line.equals("2")){
                     float disocunt = twoway.getDiscount(123);
                     System.out.println(disocunt);
@@ -50,6 +52,7 @@ public class Client extends Ice.Application {
     }
 
     public static void main(String[] args) {
+
         Client app=new Client();
         int status=app.main("Client",args,"config.client");
         System.exit(status);

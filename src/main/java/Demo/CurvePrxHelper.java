@@ -179,7 +179,7 @@ public final class CurvePrxHelper extends Ice.ObjectPrxHelperBase implements Cur
 
     static public void __getDiscount_completed(Ice.TwowayCallbackFloat __cb, Ice.AsyncResult __result)
     {
-        CurvePrx __proxy = (CurvePrx)__result.getProxy();
+        Demo.CurvePrx __proxy = (Demo.CurvePrx)__result.getProxy();
         float __ret = (float)0.0;
         try
         {
@@ -344,7 +344,7 @@ public final class CurvePrxHelper extends Ice.ObjectPrxHelperBase implements Cur
 
     static public void __getPillars_completed(Ice.TwowayCallbackArg1<String[]> __cb, Ice.AsyncResult __result)
     {
-        CurvePrx __proxy = (CurvePrx)__result.getProxy();
+        Demo.CurvePrx __proxy = (Demo.CurvePrx)__result.getProxy();
         String[] __ret = null;
         try
         {

@@ -38,24 +38,24 @@ public interface CurvePrx extends Ice.ObjectPrx
 
     public Ice.AsyncResult begin_sayCurve(int delay, java.util.Map<String, String> __ctx, Callback_Curve_sayCurve __cb);
 
-    public Ice.AsyncResult begin_sayCurve(int delay,
-                                          IceInternal.Functional_VoidCallback __responseCb,
+    public Ice.AsyncResult begin_sayCurve(int delay, 
+                                          IceInternal.Functional_VoidCallback __responseCb, 
                                           IceInternal.Functional_GenericCallback1<Ice.Exception> __exceptionCb);
 
-    public Ice.AsyncResult begin_sayCurve(int delay,
-                                          IceInternal.Functional_VoidCallback __responseCb,
-                                          IceInternal.Functional_GenericCallback1<Ice.Exception> __exceptionCb,
+    public Ice.AsyncResult begin_sayCurve(int delay, 
+                                          IceInternal.Functional_VoidCallback __responseCb, 
+                                          IceInternal.Functional_GenericCallback1<Ice.Exception> __exceptionCb, 
                                           IceInternal.Functional_BoolCallback __sentCb);
 
-    public Ice.AsyncResult begin_sayCurve(int delay,
-                                          java.util.Map<String, String> __ctx,
-                                          IceInternal.Functional_VoidCallback __responseCb,
+    public Ice.AsyncResult begin_sayCurve(int delay, 
+                                          java.util.Map<String, String> __ctx, 
+                                          IceInternal.Functional_VoidCallback __responseCb, 
                                           IceInternal.Functional_GenericCallback1<Ice.Exception> __exceptionCb);
 
-    public Ice.AsyncResult begin_sayCurve(int delay,
-                                          java.util.Map<String, String> __ctx,
-                                          IceInternal.Functional_VoidCallback __responseCb,
-                                          IceInternal.Functional_GenericCallback1<Ice.Exception> __exceptionCb,
+    public Ice.AsyncResult begin_sayCurve(int delay, 
+                                          java.util.Map<String, String> __ctx, 
+                                          IceInternal.Functional_VoidCallback __responseCb, 
+                                          IceInternal.Functional_GenericCallback1<Ice.Exception> __exceptionCb, 
                                           IceInternal.Functional_BoolCallback __sentCb);
 
     public void end_sayCurve(Ice.AsyncResult __result);
@@ -76,24 +76,24 @@ public interface CurvePrx extends Ice.ObjectPrx
 
     public Ice.AsyncResult begin_getDiscount(int date, java.util.Map<String, String> __ctx, Callback_Curve_getDiscount __cb);
 
-    public Ice.AsyncResult begin_getDiscount(int date,
-                                             IceInternal.Functional_FloatCallback __responseCb,
+    public Ice.AsyncResult begin_getDiscount(int date, 
+                                             IceInternal.Functional_FloatCallback __responseCb, 
                                              IceInternal.Functional_GenericCallback1<Ice.Exception> __exceptionCb);
 
-    public Ice.AsyncResult begin_getDiscount(int date,
-                                             IceInternal.Functional_FloatCallback __responseCb,
-                                             IceInternal.Functional_GenericCallback1<Ice.Exception> __exceptionCb,
+    public Ice.AsyncResult begin_getDiscount(int date, 
+                                             IceInternal.Functional_FloatCallback __responseCb, 
+                                             IceInternal.Functional_GenericCallback1<Ice.Exception> __exceptionCb, 
                                              IceInternal.Functional_BoolCallback __sentCb);
 
-    public Ice.AsyncResult begin_getDiscount(int date,
-                                             java.util.Map<String, String> __ctx,
-                                             IceInternal.Functional_FloatCallback __responseCb,
+    public Ice.AsyncResult begin_getDiscount(int date, 
+                                             java.util.Map<String, String> __ctx, 
+                                             IceInternal.Functional_FloatCallback __responseCb, 
                                              IceInternal.Functional_GenericCallback1<Ice.Exception> __exceptionCb);
 
-    public Ice.AsyncResult begin_getDiscount(int date,
-                                             java.util.Map<String, String> __ctx,
-                                             IceInternal.Functional_FloatCallback __responseCb,
-                                             IceInternal.Functional_GenericCallback1<Ice.Exception> __exceptionCb,
+    public Ice.AsyncResult begin_getDiscount(int date, 
+                                             java.util.Map<String, String> __ctx, 
+                                             IceInternal.Functional_FloatCallback __responseCb, 
+                                             IceInternal.Functional_GenericCallback1<Ice.Exception> __exceptionCb, 
                                              IceInternal.Functional_BoolCallback __sentCb);
 
     public float end_getDiscount(Ice.AsyncResult __result);
@@ -114,20 +114,20 @@ public interface CurvePrx extends Ice.ObjectPrx
 
     public Ice.AsyncResult begin_getPillars(java.util.Map<String, String> __ctx, Callback_Curve_getPillars __cb);
 
-    public Ice.AsyncResult begin_getPillars(IceInternal.Functional_GenericCallback1<String[]> __responseCb,
+    public Ice.AsyncResult begin_getPillars(IceInternal.Functional_GenericCallback1<String[]> __responseCb, 
                                             IceInternal.Functional_GenericCallback1<Ice.Exception> __exceptionCb);
 
-    public Ice.AsyncResult begin_getPillars(IceInternal.Functional_GenericCallback1<String[]> __responseCb,
-                                            IceInternal.Functional_GenericCallback1<Ice.Exception> __exceptionCb,
+    public Ice.AsyncResult begin_getPillars(IceInternal.Functional_GenericCallback1<String[]> __responseCb, 
+                                            IceInternal.Functional_GenericCallback1<Ice.Exception> __exceptionCb, 
                                             IceInternal.Functional_BoolCallback __sentCb);
 
-    public Ice.AsyncResult begin_getPillars(java.util.Map<String, String> __ctx,
-                                            IceInternal.Functional_GenericCallback1<String[]> __responseCb,
+    public Ice.AsyncResult begin_getPillars(java.util.Map<String, String> __ctx, 
+                                            IceInternal.Functional_GenericCallback1<String[]> __responseCb, 
                                             IceInternal.Functional_GenericCallback1<Ice.Exception> __exceptionCb);
 
-    public Ice.AsyncResult begin_getPillars(java.util.Map<String, String> __ctx,
-                                            IceInternal.Functional_GenericCallback1<String[]> __responseCb,
-                                            IceInternal.Functional_GenericCallback1<Ice.Exception> __exceptionCb,
+    public Ice.AsyncResult begin_getPillars(java.util.Map<String, String> __ctx, 
+                                            IceInternal.Functional_GenericCallback1<String[]> __responseCb, 
+                                            IceInternal.Functional_GenericCallback1<Ice.Exception> __exceptionCb, 
                                             IceInternal.Functional_BoolCallback __sentCb);
 
     public String[] end_getPillars(Ice.AsyncResult __result);
@@ -148,20 +148,20 @@ public interface CurvePrx extends Ice.ObjectPrx
 
     public Ice.AsyncResult begin_shutdown(java.util.Map<String, String> __ctx, Callback_Curve_shutdown __cb);
 
-    public Ice.AsyncResult begin_shutdown(IceInternal.Functional_VoidCallback __responseCb,
+    public Ice.AsyncResult begin_shutdown(IceInternal.Functional_VoidCallback __responseCb, 
                                           IceInternal.Functional_GenericCallback1<Ice.Exception> __exceptionCb);
 
-    public Ice.AsyncResult begin_shutdown(IceInternal.Functional_VoidCallback __responseCb,
-                                          IceInternal.Functional_GenericCallback1<Ice.Exception> __exceptionCb,
+    public Ice.AsyncResult begin_shutdown(IceInternal.Functional_VoidCallback __responseCb, 
+                                          IceInternal.Functional_GenericCallback1<Ice.Exception> __exceptionCb, 
                                           IceInternal.Functional_BoolCallback __sentCb);
 
-    public Ice.AsyncResult begin_shutdown(java.util.Map<String, String> __ctx,
-                                          IceInternal.Functional_VoidCallback __responseCb,
+    public Ice.AsyncResult begin_shutdown(java.util.Map<String, String> __ctx, 
+                                          IceInternal.Functional_VoidCallback __responseCb, 
                                           IceInternal.Functional_GenericCallback1<Ice.Exception> __exceptionCb);
 
-    public Ice.AsyncResult begin_shutdown(java.util.Map<String, String> __ctx,
-                                          IceInternal.Functional_VoidCallback __responseCb,
-                                          IceInternal.Functional_GenericCallback1<Ice.Exception> __exceptionCb,
+    public Ice.AsyncResult begin_shutdown(java.util.Map<String, String> __ctx, 
+                                          IceInternal.Functional_VoidCallback __responseCb, 
+                                          IceInternal.Functional_GenericCallback1<Ice.Exception> __exceptionCb, 
                                           IceInternal.Functional_BoolCallback __sentCb);
 
     public void end_shutdown(Ice.AsyncResult __result);
